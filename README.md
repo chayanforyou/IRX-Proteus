@@ -15,13 +15,20 @@ __Note:__ This library requires a minimum of Proteus version 8.12 or later.
 To use the IRX library in your Proteus simulations, follow these steps:
 
 - __Prerequisites:__ Ensure you have Proteus version 8.12 or newer installed on your system.
-- __Installation:__ Download the IRX library files from the IRX GitHub repository.
-- __Integration:__ Add the downloaded IRX library files to your Proteus project.
-- __Microcontroller Setup:__ Configure your microcontroller simulation within Proteus, ensuring it's compatible with the microcontroller platform you intend to use (Arduino, AVR, PIC, STM, etc.).
+- __Installation:__ Download the [IRX library](https://github.com/chayanforyou/IRX-Proteus/releases/latest) from the latest release.
+- __Integration:__ Unzip `IRX_Library.zip`. Add the `IRX.LIB` to `DATA > LIBRARY` and `IRX.IDX` to `DATA > Library Indexing`.
+- __Simulation:__ Select a Remote of your choice from the Device Pickup, Configure the MCU and run the simulation. 
 
 ## Example Usage
 Here's a basic example of how to use the IRX library
 
+#### Arduino
+
+![](Simulation/IRX%20with%20Arduino%20UNO/IRX_Arduino.png)
+
+#### PIC12F675
+
+![](Simulation/IRX%20with%20PIC12F675/IRX_PIC12F675.png)
 
 ## Contributing
 We welcome contributions to the IRX library! If you have improvements, bug fixes, or new remotes to add.
