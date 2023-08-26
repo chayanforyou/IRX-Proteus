@@ -22,6 +22,8 @@ To use the IRX library in your Proteus simulations, follow these steps:
 ## Example Usage
 Here's a basic example of how to use the IRX library
 
+[YouTube Demo](https://youtu.be/cvsGcb-TSkk)
+
 #### Arduino
 
 ![](Simulation/IRX%20with%20Arduino%20UNO/IRX_Arduino.png)
